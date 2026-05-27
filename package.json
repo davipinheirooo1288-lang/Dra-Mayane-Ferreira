@@ -1,0 +1,10 @@
+{
+  "name": "mayane-ferreira-advocacia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional estático para Mayane Ferreira Advocacia.",
+  "scripts": {
+    "lint": "node --check script.js && node scripts/validate-site.mjs",
+    "build": "npm run lint"
+  }
+}
