@@ -55,7 +55,8 @@ expect(!html.includes("Atendimento avaliado em 5 estrelas"), "Depoimento/avalia√
 expect(!html.includes("Cliente atendido"), "Depoimentos gen√©ricos ainda presentes.");
 expect(html.includes('"@type": "LegalService"'), "Schema LegalService ausente.");
 expect(html.includes('twitter:card" content="summary_large_image"'), "Twitter Card ausente.");
-expect(html.includes('https://mayaneferreiraadvocacia.com.br/assets/og-mayane.jpg'), "OG/Twitter image deve usar URL absoluta.");
+expect(html.includes('https://dra-mayane-ferreira.vercel.app/'), "Canonical/OG URL final da Vercel ausente.");
+expect(html.includes('https://dra-mayane-ferreira.vercel.app/assets/og-mayane.jpg'), "OG/Twitter image deve usar URL absoluta.");
 expect(html.includes('rel="icon" href="assets/favicon.svg"'), "Favicon ausente.");
 expect(html.includes("aria-expanded"), "Atributos de acessibilidade do FAQ/menu ausentes.");
 expect(css.includes("@media (max-width: 760px)"), "CSS mobile principal ausente.");

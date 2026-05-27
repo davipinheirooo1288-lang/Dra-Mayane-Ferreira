@@ -2,6 +2,8 @@
 
 Site institucional estático da advogada Mayane Ferreira, com layout fiel ao template visual, camadas semânticas para SEO/acessibilidade e deploy preparado para GitHub + Vercel.
 
+URL de produção: `https://dra-mayane-ferreira.vercel.app/`
+
 ## Estrutura
 
 - `index.html`: conteúdo, SEO, schema LegalService, links e hotspots clicáveis.
